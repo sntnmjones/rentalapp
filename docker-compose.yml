@@ -3,6 +3,4 @@ services:
   web:
     build: .
     ports:
-     - "8000:80"
-    volumes:
-     - .:/app
+     - "8000:8000"
